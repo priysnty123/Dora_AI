@@ -1,0 +1,22 @@
+[project]
+name = "Dora"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "elevenlabs>=2.14.0",
+    "gradio>=5.44.1",
+    "groq>=0.31.0",
+    "gtts>=2.5.4",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.9",
+    "langchain-groq>=0.3.7",
+    "langgraph>=0.6.5",
+    "opencv-python>=4.12.0.88",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.1.1",
+    "speechrecognition>=3.14.3",
+    "streamlit>=1.49.1",
+]
