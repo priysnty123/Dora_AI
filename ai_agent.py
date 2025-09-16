@@ -36,32 +36,6 @@ llm = ChatGoogleGenerativeAI(
     google_api_key=os.getenv("GOOGLE_API_KEY") 
 )
 
-#llm_with_tool = llm.bind_tools([ddg_tool])
-
-# llm = ChatGroq(
-#     model="deepseek-r1-distill-llama-70b",
-#     temperature=0.7,
-#     api_key=os.getenv("GROQ_API_KEY")
-# )
-
-
-# def ask_agent(user_query: str) -> str:
-    
-    
-
-#     agent = create_react_agent(
-#     model=llm,
-#     tools=[analyze_image_with_query],  
-#     prompt=system_prompt
-# )
-
-#     input_messages = {"messages": [{"role": "user", "content": user_query}]}
-
-#     response = agent.invoke(input_messages)
-
-#     return response['messages'][-1].content
-
-# ask_agent(user_query)
 
 def ask_agent(user_query: str) -> str:
     agent = create_react_agent(
