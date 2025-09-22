@@ -1,4 +1,4 @@
-AI Assitant–Dora
+## AI Assistant–Dora
 
 My new AI assistant that can interact with you through webcam and audio in real time. You can ask her anything — she listens, thinks, browse the internet and responds like a real conversational agent.
 
